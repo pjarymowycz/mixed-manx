@@ -5,18 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+
     <!-- Load Leaflet CSS -->
     <link href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" rel="stylesheet">
 
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-  </head>  
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
   <body>
     <h1>New York City</h1>
     <h2>Parks & Community Gardens</h2>
-    
+
     <div class="about">About This Site:</div>
     <div class="docText">
       <p>
@@ -24,42 +24,42 @@
         However, a closer look shows the city is full of parks, green spaces, and community gardens for all New Yorkers to enjoy!
       </p>
       <p>
-        New York City administers the vast majority of public parks and green spaces within city limits, 
-        although several state- and nationally-run parks can also be found here. Additional information about 
-        city parks can be obtained from the 
+        New York City administers the vast majority of public parks and green spaces within city limits,
+        although several state- and nationally-run parks can also be found here. Additional information about
+        city parks can be obtained from the
         <a class="link" href="https://www.nycgovparks.org/">New York City Department of Parks & Recreation</a>
       </p>
       <p>
         Community gardens are also prevalent throughout the city. According to the NYC Department of Parks and Recreation,
-        the <a class="link" href="https://greenthumb.nycgovparks.org/">NYC GreenThumb</a> program is the largest 
-        community gardening program in the nation with over 500 registered community gardens. 
+        the <a class="link" href="https://greenthumb.nycgovparks.org/">NYC GreenThumb</a> program is the largest
+        community gardening program in the nation with over 500 registered community gardens.
       </p>
       <p>
         Use the following map to look-up your closest city park or community garden!<br />
         Click on a park or garden for more information.
       </p>
     </div>
-    
+
     <div class="about">Legend</div>
     <p>
       <div class="park"></div> = NYC Park<br />
       <div class="garden"></div> = Greenthumb Community Garden
     </p>
-    
+
     <div class="mapClass" id="map1"></div>
-    
+
     <!-- Load Leaflet library -->
     <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
-    
+
     <!-- Load Promises polyfill -->
     <script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"></script>
-    
+
     <!-- Load Fetch polyfill -->
     <script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.4/fetch.js"></script>
 
     <!-- import the webpage's javascript file -->
     <script src="./script.js"></script>
-    
+
     <p>
        Made with <a href="https://glitch.com">Glitch</a>!
     </p>
